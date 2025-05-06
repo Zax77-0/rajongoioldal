@@ -8,6 +8,10 @@ body {
     width: 100vw;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    overflow-x: hidden;
 }
 
 #bg {
@@ -105,4 +109,8 @@ body {
 
 .card-text, h4 {
     text-align: left;
+}
+
+.container {
+    margin-bottom: auto;
 }
