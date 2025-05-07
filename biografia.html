@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="hu">
+<html lang="hu" class="h-100">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,12 +7,12 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body class="h-100">
 
-    <nav class="navbar navbar-expand-lg navbar-light mb-5 sticky-top">
+    <nav class="navbar navbar-expand-lg navbar-dark mb-5 sticky-top" id="SecondaryNav">
         <div class="container">
             <a class="navbar-brand text-white">Robert J. Oppenheimer</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarBasic">
+            <button class="navbar-toggler bg-dark" type="button" data-bs-toggle="collapse" data-bs-target="#navbarBasic">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarBasic">
@@ -34,15 +34,15 @@
         </div>
     </nav>
 
-    <div class="container">
+    <div class="container-fluid">
         <div class="row justify-content-around">
-            <div class="col-6">
+            <div class="col-sm-6">
                 <p class="lead lh-sm"><span style="text-decoration: underline;">Julius Robert Oppenheimer</span> (New York, 1904. április 22. – Princeton, 1967. február 18.) zsidó származású amerikai elméleti fizikus, a Manhattan terv tudományos igazgatójaként jelentős szerepet játszott az első amerikai atombomba kifejlesztésében.</p>
                 <p class="lead lh-sm">A sajtó az atombomba bevetése és a fegyver létezésnek, valamint fejlesztési történetének nyilvánosságra kerülése után az <span style="text-decoration: underline;">„Atombomba atyja”</span>-ként kezdte emlegetni. Oroszlánrészt vállalt a Manhattan terv tudományos és technikai részének megszervezésében, az első nukleáris fegyvereket létrehozó kutatási és fejlesztési vállalkozásban.</p>
                 <p class="lead lh-sm">Német zsidó bevándorlók gyermekeként született 1904-ben, New Yorkban. Édesapja tehetős textilkereskedőként mindkét gyermeke iskoláztatását a szívén viselte, így Oppenheimer 1925-ben kémiából szerzett BSc fokozatú diplomát a Harvard Egyetemen, majd az angliai Cambridge-be ment, ahol azonban nem érezte jól magát és inkább átment a németországi Göttingeni Egyetemre, ahol 1927-ben PhD fokozatot szerzett fizikából.</p>
                 <p class="lead lh-sm">Más intézményekben végzett kutatások után csatlakozott a kaliforniai Berkeley-i Egyetem fizika tanszékéhez, ahol 1936-ban professzor lett, de párhuzamosan a California Institute of Technology (Caltech) egyetemen is előadott. Jelentős mértékben hozzájárult az elméleti fizikához, beleértve a kvantummechanika és magfizika terén elért eredményeket, mint például a Born–Oppenheimer-közelítés a molekuláris hullámfüggvényekre, az elektronok és pozitronok elmélete, az Oppenheimer–Phillips folyamat a magfúzióban, valamint az alagúthatás első előrejelzésében. Tanítványaival a neutroncsillagok és fekete lyukak elméletéhez, a kvantumtérelmélethez és a kozmikus sugárzás kölcsönhatásához is hozzájárult.</p>
                 <p class="lead lh-sm">1942-ben Leslie Groves tábornok egy megfelelő tudományos vezetőt keresett a Manhattan tervhez és megtalálva Oppenheimerben az ehhez szükséges kvalitásokat, ki is nevezte igazgatónak a még megalapítandó kutatólaboratóriumba. A labor helyét már Oppenheimer közreműködésével választották ki és az új-mexikói Los Alamos mellett a sivatagban állították fel és így egy tényleges intézmény vezetője lett. A laborban 1943-45 között kifejlesztették a világ első működőképes nukleáris fegyverét, megelőzve a náci német atomfegyver-programot. Vezetése és tudományos szakértelme nagyban hozzájárult a projekt sikeréhez. 1945. július 16-án ő vezette a Trinity atombombatesztjének lebonyolítását, amelyben egy kísérleti példánnyal – „A Kütyüvel” – 
-                    <img class="img-fluid" src="bomb.jpg" alt="A kütyü"> végeztek sikeres atomrobbantást, amelynek sikere nyomán Harry Truman elnök bejelenthette a Szövetséges hatalmak vezetőinek, hogy az USA rendelkezik egy félelmetes erejű fegyverrel, amelyet kész bevetni Japán ellen, majd a Potsdami nyilatkozatban – igaz a fegyver említése nélkül– ezzel meg is fenyegették Japánt. 1945 augusztusában a fegyvereket Japán ellen be is vetették Hirosima és Nagaszaki bombázása során. Máig is összesen ez a két nukleáris fegyverhasználat történt fegyveres konfliktusban.</p>
+                    <img id="bombImg" class="img-fluid" src="bomb.jpg" alt="A kütyü"> végeztek sikeres atomrobbantást, amelynek sikere nyomán Harry Truman elnök bejelenthette a Szövetséges hatalmak vezetőinek, hogy az USA rendelkezik egy félelmetes erejű fegyverrel, amelyet kész bevetni Japán ellen, majd a Potsdami nyilatkozatban – igaz a fegyver említése nélkül– ezzel meg is fenyegették Japánt. 1945 augusztusában a fegyvereket Japán ellen be is vetették Hirosima és Nagaszaki bombázása során. Máig is összesen ez a két nukleáris fegyverhasználat történt fegyveres konfliktusban.</p>
             </div>
             <div class="col col-lg-4">
                 <div class="card">
@@ -82,3 +82,5 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
 </body>
 </html>
+
+<!-- Made by Zax77 -->
